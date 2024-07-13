@@ -29,12 +29,18 @@ section {
 	border-radius:  15px;
 	box-shadow:  8px 8px 1px black; 
 	border: 1px solid black;
+	transition: all 0.3s;
 
 	display: flex;
 	flex-direction: column;
 
 	padding:  10px;
 }
+
+section:hover{
+	box-shadow:  15px 15px 1px black; 
+}
+
 
 #image{
 	display: flex;
@@ -74,9 +80,13 @@ section {
 #title{
 	font-family: 'titulo', Arial, Helvetica, sans-serif;
 	margin-left: 8px;
-	margin-bottom: 2px ;
+	margin-bottom: 2px;
+	transition:  0.5s all; 
 }
-
+#title:hover{
+	color: rgb(169, 169, 16);
+	cursor: pointer;
+}
 #text{
 	font-family: 'padrao', Arial, Helvetica, sans-serif;
 	color: gray;
